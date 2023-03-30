@@ -13,14 +13,7 @@ body {
     text-align: center;
 }
 
-.secret-text {
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background-color: #000;
-}
-
-/* home */
+/* home & secrets page*/
 .homediv{
   transform: rotate(340deg);
   font-size: small;
@@ -49,6 +42,28 @@ body {
   margin-right: 1rem;
 }
 
+.secretdiv{
+  width: 35%;
+  /* padding-left: 5rem; */
+}
+.secretHeading{
+  font-size:2.3rem;
+  padding: 2.8rem 0 1rem 2rem;
+}
+
+.secret-text {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #392424;
+  background-color: #d6d1bf;
+  border: 1.5px solid #392424;
+  border-radius: 5rem;
+  padding: 0.2rem 1.2rem;
+}
+
+.logoutbtn{
+  margin-left: 6.7rem;
+}
 /* Login & Register  */
 
 .login-register-div{
@@ -70,6 +85,7 @@ body {
 }
 .login-reg-input:focus{
   background-color: #e6e1ce;
+  color: #392424;
 }
 
 .login-reg-btn{
