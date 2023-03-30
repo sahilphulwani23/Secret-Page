@@ -33,7 +33,8 @@ body {
 }
 
 .lead{
-  color: #392424;
+  color: #4b2f2f;
+  font-weight: 400;
 }
 
 .registerbtn:hover{
@@ -46,4 +47,39 @@ body {
 .loginbtn{
   margin-left: 1.2rem;
   margin-right: 1rem;
+}
+
+/* Login & Register  */
+
+.login-register-div{
+  padding-top: 10.5rem;
+  margin: auto 21rem auto auto ;
+  width: 29%;
+  transform: rotate(339deg);
+  font-size:medium;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.login-reg-label{
+  color: #402828;
+}
+.login-reg-input{
+  background-color:#d6d1bf;
+  border: 1.5px solid #392424;
+  border-radius: 5rem;
+}
+.login-reg-input:focus{
+  background-color: #e6e1ce;
+}
+
+.login-reg-btn{
+  background-color: #372f2f;
+  border-radius: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-google{
+  background-color: #372f2f;
+  border-radius: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
 }
