@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* home & secrets page*/
+/* home & secrets page & submit*/
 .homediv{
   transform: rotate(340deg);
   font-size: small;
@@ -63,6 +63,20 @@ body {
 
 .logoutbtn{
   margin-left: 6.7rem;
+}
+
+.submitbtn{
+  margin-right: 3rem;
+}
+.submitTab{
+  width: 50%;
+  margin-left: 16rem;
+  border: 1.5px solid #392424;
+  background-color: #efe9d6;
+}
+
+.submitTab::placeholder{
+  color: #392424;
 }
 /* Login & Register  */
 
